@@ -1,0 +1,94 @@
+CREATE TABLE CUSTOMER(
+    CUSTOMER_NAME VARCHAR(20),
+    FOREIGN KEY(CUSTOMER_NAME) REFERENCES DEPOSITOR(CUSTOMER_NAME),
+    CUSTOMER_CITY VARCHAR(15)
+);
+
+
+INSERT INTO CUSTOMER (
+    CUSTOMER_NAME,
+    CUSTOMER_CITY
+) VALUES (
+    'John Doe',
+    'New York City'
+);
+
+INSERT INTO CUSTOMER (
+    CUSTOMER_NAME,
+    CUSTOMER_CITY
+) VALUES (
+    'Jane Doe',
+    'London'
+);
+
+INSERT INTO CUSTOMER (
+    CUSTOMER_NAME,
+    CUSTOMER_CITY
+) VALUES (
+    'Peter Parker',
+    'Tokyo'
+);
+
+INSERT INTO CUSTOMER (
+    CUSTOMER_NAME,
+    CUSTOMER_CITY
+) VALUES (
+    'Mary Jane Watson',
+    'Shanghai'
+);
+
+INSERT INTO CUSTOMER (
+    CUSTOMER_NAME,
+    CUSTOMER_CITY
+) VALUES (
+    'Bruce Wayne',
+    'Hong Kong'
+);
+
+INSERT INTO CUSTOMER (
+    CUSTOMER_NAME,
+    CUSTOMER_CITY
+) VALUES (
+    'Clark Kent',
+    'Singapore'
+);
+
+INSERT INTO CUSTOMER (
+    CUSTOMER_NAME,
+    CUSTOMER_CITY
+) VALUES (
+    'Diana Prince',
+    'Sydney'
+);
+
+INSERT INTO CUSTOMER (
+    CUSTOMER_NAME,
+    CUSTOMER_CITY
+) VALUES (
+    'Arthur Curry',
+    'Melbourne'
+);
+
+INSERT INTO CUSTOMER (
+    CUSTOMER_NAME,
+    CUSTOMER_CITY
+) VALUES (
+    'Victor Stone',
+    'Seoul'
+);
+
+INSERT INTO CUSTOMER (
+    CUSTOMER_NAME,
+    CUSTOMER_CITY
+) VALUES (
+    'Barry Allen',
+    'Taipei'
+);
+
+INSERT INTO CUSTOMER (
+    CUSTOMER_NAME,
+    CUSTOMER_CITY
+) VALUES (
+    'Hal Jordan',
+    'Mumbai'
+);

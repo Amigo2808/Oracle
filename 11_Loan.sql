@@ -1,0 +1,77 @@
+CREATE TABLE LOAN(
+    LOAN_NUMBER NUMBER(10) PRIMARY KEY,
+    BRANCH_NAME VARCHAR(25),
+    FOREIGN KEY(BRANCH_NAME) REFERENCES BRANCH(BRANCH_NAME),
+    LOAN_BALANCE NUMBER(10)
+);
+
+
+INSERT INTO LOAN (
+    LOAN_NUMBER,
+    BRANCH_NAME,
+    LOAN_BALANCE
+) VALUES (
+    1001,
+    'State Bank of India',
+    100000
+);
+
+INSERT INTO LOAN (
+    LOAN_NUMBER,
+    BRANCH_NAME,
+    LOAN_BALANCE
+) VALUES (
+    2002,
+    'Bank of Baroda',
+    200000
+);
+
+INSERT INTO LOAN (
+    LOAN_NUMBER,
+    BRANCH_NAME,
+    LOAN_BALANCE
+) VALUES (
+    3003,
+    'HDFC Bank',
+    300000
+);
+
+INSERT INTO LOAN (
+    LOAN_NUMBER,
+    BRANCH_NAME,
+    LOAN_BALANCE
+) VALUES (
+    4004,
+    'ICICI Bank',
+    400000
+);
+
+INSERT INTO LOAN (
+    LOAN_NUMBER,
+    BRANCH_NAME,
+    LOAN_BALANCE
+) VALUES (
+    5005,
+    'Axis Bank',
+    500000
+);
+
+INSERT INTO LOAN (
+    LOAN_NUMBER,
+    BRANCH_NAME,
+    LOAN_BALANCE
+) VALUES (
+    6006,
+    'Kotak Mahindra Bank',
+    600000
+);
+
+INSERT INTO LOAN (
+    LOAN_NUMBER,
+    BRANCH_NAME,
+    LOAN_BALANCE
+) VALUES (
+    7007,
+    'IndusInd Bank',
+    700000
+);

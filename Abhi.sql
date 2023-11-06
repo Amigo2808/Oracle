@@ -1,0 +1,31 @@
+select * from tab;
+
+purge recyclebin;
+
+DROP TABLE CLIENT_MASTER;
+DROP TABLE PRODUCT_MASTER;
+DROP TABLE SALESMAN_MASTER;
+DROP TABLE SALES_ORDER;
+DROP TABLE SALES_ORDER_DETAILs;
+
+select * from CLIENT_MASTER;
+select * from PRODUCT_MASTER;
+select * from SALESMAN_MASTER;
+select * from SALES_ORDER;
+select * from SALES_ORDER_DETAILS;
+
+DROP TABLE BRANCH;
+DROP TABLE ACCOUNT;
+DROP TABLE DEPOSITOR;
+DROP TABLE CUSTOMER;
+DROP TABLE LOAN;
+DROP TABLE BORROWER;
+
+select * from BRANCH;
+select * from ACCOUNT;
+select * from DEPOSITOR;
+select * from CUSTOMER;
+select * from LOAN;
+select * from BORROWER;
+
+set pagesize 999;
